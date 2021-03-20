@@ -1,0 +1,11 @@
+git status -> prints the status of the Git Repository
+git init -> initialises the Git Repository
+git config --global user.name "muzhussain"
+git config --global user.email muzhussain2018@gmail.com
+git config user.name "muzhussain"
+git config user.email muzhussain2018@gmail.com
+git add -> to stage
+git rm --cached <file> -> to ustage
+git commit - m "" -> 
+git log -> gets the info aand history of commits on the file
+Git diff --cached
