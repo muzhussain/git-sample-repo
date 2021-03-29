@@ -9,3 +9,8 @@ git rm --cached <file> -> to ustage
 git commit - m "" -> 
 git log -> gets the info aand history of commits on the file
 Git diff --cached
+
+git push -u origin main
+
+git folder path:
+C:\Users\pc\git-tutorial\git-sample-repo
