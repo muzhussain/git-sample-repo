@@ -13,6 +13,10 @@ git log 						 -> gets the info and history of commits on the file
 git diff <filename> 					 -> Check changes made to file with existing file
 git remote add origin <GitHub Repository URL> 		 -> Establish connection to the remote Github Repository
 git push -u origin main 				 -> Push to master branch
+git branch						 -> Check which brach pointing to
+git checkout -b privatebranch1				 -> Create a new branch 'privatebranch1' normally name of feature of bug number
+git checkout privatebranch2				 -> Switch to branch 'privatebranch2'
+q							 -> quits and back to cmd
 
 
 git folder path:
