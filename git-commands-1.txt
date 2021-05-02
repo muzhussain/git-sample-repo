@@ -1,16 +1,20 @@
-git status -> prints the status of the Git Repository
-git init -> initialises the Git Repository
-git config --global user.name "muzhussain"
-git config --global user.email muzhussain2018@gmail.com 
-git config user.name "muzhussain"
-git config user.email muzhussain2018@gmail.com
-git add -> to stage
-git rm --cached <file> -> to ustage
-git commit - m "" -> 
-git log -> gets the info aand history of commits on the file
-Git diff --cached
+--------------------------------------------------Git Commands--------------------------------------------------------------
 
-git push -u origin main
+git status 						 -> prints the status of the Git Repository
+git init 						 -> initializes the Git Repository
+git config --global user.name "muzhussain"  		 -> Specify Username globally
+git config --global user.email muzhussain2018@gmail.com  -> Specify Email globally
+git config user.name "muzhussain" 			 -> Specify Username for particular repository
+git config user.email muzhussain2018@gmail.com 		 -> Specify Email for particular repository
+git add <filename>					 -> Add <filename> to staging environment
+git add *						 -> Add all files to staging environment
+git commit -m "" 					 -> Commit file to local Git Repository
+git log 						 -> gets the info and history of commits on the file
+git diff <filename> 					 -> Check changes made to file with existing file
+git remote add origin <GitHub Repository URL> 		 -> Establish connection to the remote Github Repository
+git push -u origin main 				 -> Push to master branch
+
 
 git folder path:
 C:\Users\pc\git-tutorial\git-sample-repo
+---------------------------------------------------------------------------------------------------------------------------- 
