@@ -16,16 +16,19 @@ git push -u origin main 				 -> Push to master branch
 git branch						 -> Check which brach pointing to
 git checkout -b privatebranch1				 -> Create a new branch 'privatebranch1' normally name of feature of bug number
 git checkout privatebranch2				 -> Switch to branch 'privatebranch2'
+q							 -> quits and back to cmd
+
 
 
 git folder path:
 C:\Users\pc\git-tutorial\git-sample-repo
----------------------------------------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------------------------------------
 
 Scenario 1:
 First Release -> Done
 Second Release
 	2 Features
+
 	2 People
 Third Release
 	1 Feature
@@ -44,3 +47,13 @@ Person B -> Pull from master to private branch, merge code to master
 
 Scenario 3:
 1 Person -> Two different features
+
+
+                      PrivateBranch1-----------------------------
+		      |						|
+		      |						|
+		      |						|
+--------------------Master----------Release---------------Master--------------------------Master-------------Release--------------------Master----------------------------
+                     |										|
+		     |										|Pull and then merge
+		PrivateBranch2-------------------------------------------------------------------
