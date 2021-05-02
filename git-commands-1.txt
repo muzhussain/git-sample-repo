@@ -1,7 +1,7 @@
 git status -> prints the status of the Git Repository
 git init -> initialises the Git Repository
 git config --global user.name "muzhussain"
-git config --global user.email muzhussain2018@gmail.com
+git config --global user.email muzhussain2018@gmail.com 
 git config user.name "muzhussain"
 git config user.email muzhussain2018@gmail.com
 git add -> to stage
